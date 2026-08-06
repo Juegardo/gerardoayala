@@ -21,9 +21,7 @@ header.hero-header {
     padding: 20px 40px;
 
     /* Configuración de la imagen de fondo */
-    background-image: 
-        linear-gradient(to bottom, rgba(18, 18, 18, 0.3) 0%, rgba(18, 18, 18, 0.95) 100%), 
-        url('mago.jpg');
+    background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0.3) 0%, rgba(18, 18, 18, 0.95) 100%), url('mago.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
