@@ -21,25 +21,27 @@ header.hero-header {
     padding: 20px 40px;
 
     /* Configuración de la imagen de fondo */
-    background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0.3) 0%, rgba(18, 18, 18, 0.95) 100%), url('mago.jpg');
+    background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0.3) 0%, rgba(18, 18, 18, 0.85) 250px, #121212 350px), url('mago.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 350px;
 
     /* Acomoda el menú arriba y da espacio */
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
 /* --- ENCABEZADO / MENÚ --- */
-.navbar {
+header, .hero-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1400px;
-    margin: 0 auto 50px auto;
-    padding: 20px 0;
+    height: auto; /* Restablece el alto para que no empuje el contenido */
+    margin: 0 auto 40px auto;
+    padding: 10px 0;
 }
 
 /* 1. Enlaces Izquierda */
