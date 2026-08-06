@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 500px;
     background-position: top center;
-    background-attachment: fixed
+    background-attachment: scroll;
     
     color: #ffffff;
     font-family: 'Helvetica Neue', Arial, sans-serif;
