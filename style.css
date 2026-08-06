@@ -46,7 +46,7 @@ header, .hero-header {
 .social-icons {
     display: flex;
     justify-content: flex-end; /* Mantiene los íconos alineados a la derecha de su bloque */
-    gap: 45px;
+    gap: 55px;
 }
 
 .logo {
