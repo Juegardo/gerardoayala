@@ -9,7 +9,7 @@ body {
     background-color: #121212;
     background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0.3), rgba(18, 18, 18, 0.85) 400px, #121212 100%), url('mago.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 450px;
     background-position: top center;
     background-attachment: fixed;
     
