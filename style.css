@@ -94,6 +94,7 @@ nav a {
 
 /* Estilo del título centrado */
 .overlay h3 {
+    font-family: 'Bebas Neue', 'Bebas Kai', sans-serif;
     color: #ffffff;             /* Texto Blanco */
     font-size: 1.6rem;          /* Texto grande */
     font-weight: bold;
