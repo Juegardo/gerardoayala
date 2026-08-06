@@ -6,7 +6,13 @@
 }
 
 body {
-    background-color: #121212; /* Fondo oscuro estilo Adobe Portfolio */
+    background-color: #121212;
+    background-image: linear-gradient(rgba(18, 18, 18, 0.85), rgba(18, 18, 18, 0.85)), url('mago.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed
+    
     color: #ffffff;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     padding: 20px;
