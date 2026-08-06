@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me | Gerardo García Ayala</title>
-    <!-- Mismas fuentes e íconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Menú (Idéntico al de inicio) -->
-    <nav class="nav-links">
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT ME</a>
-    <a href="contact.html">CONTACT</a>
-</nav>
+    <!-- Encabezado / Menú -->
+    <header class="navbar">
+        <nav class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
 
         <h1 class="logo">GERARDO GARCÍA AYALA</h1>
 
@@ -25,14 +25,28 @@
         </div>
     </header>
 
-    <!-- Contenido principal de la página -->
-    <main class="page-content">
-        <h2>ABOUT ME</h2>
-        <p>hi! i´m a cncept designer focussed in environments and props.
-i worked disgn for a theme parks and freelance whit videogame indies, everytime give my best work.
-i leraning from the teams i has, and i help anytime, my passion for this 
-i always still learnig</p>
+    <!-- Sección About Me -->
+    <main class="about-container">
+        <h2 class="about-title">ABOUT ME</h2>
+        
+        <div class="profile-image-wrapper">
+            <img src="foto-perfil.jpg" alt="Gerardo García Ayala" class="profile-img">
+        </div>
+
+        <div class="about-text">
+            <p>HI! I’M A CONCEPT DESIGNER FOCUSED IN ENVIRONMENTS AND PROPS.</p>
+            <p>I WORKED DESIGN FOR THEME PARKS AND FREELANCE WITH INDIE VIDEOGAMES, ALWAYS GIVING MY BEST WORK.</p>
+            <p>LEARNING FROM THE TEAMS I HAVE AND HELPING ANYTIME, MY PASSION FOR THIS IS ALWAYS CONTINUOUS.</p>
+        </div>
     </main>
+
+    <!-- Pie de página con redes de abajo -->
+    <footer class="footer-social">
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/TU_USUARIO" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.artstation.com/TU_USUARIO" target="_blank"><i class="fa-brands fa-artstation"></i></a>
+        </div>
+    </footer>
 
 </body>
 </html>
