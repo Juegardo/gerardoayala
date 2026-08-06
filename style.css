@@ -152,3 +152,69 @@ nav a {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+
+/* --- SECCIÓN ABOUT ME --- */
+.about-container {
+    max-width: 800px;
+    margin: 40px auto 60px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.profile-image-wrapper {
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.about-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+    color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-text p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* --- FOOTER DE REDES --- */
+.footer-social {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.footer-icons a:hover {
+    opacity: 1;
+}
