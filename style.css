@@ -35,7 +35,13 @@ header, .hero-header {
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 1.5px;
+    padding: 0 15px; /* Espacio horizontal interno de cada botón */
     transition: opacity 0.3s ease;
+}
+
+/* Agrega la línea vertical a la derecha de HOME y ABOUT ME */
+.nav-links a:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.4); /* Línea blanca sutil */
 }
 
 .nav-links a:hover {
