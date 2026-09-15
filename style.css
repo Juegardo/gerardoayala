@@ -144,7 +144,7 @@ nav a {
 /* Estilo del título centrado */
 .overlay h3 {
     font-family: "Bebas Neue", sans-serif;
-  font-weight: 2.2rem;
+  font-weight: 2.5rem !important; 
   font-style: normal;
     color: #ffffff;             /* Texto Blanco */
     font-size: 1.6rem;          /* Texto grande */
